@@ -1,0 +1,50 @@
+#header{
+    display: flex;
+    gap: 30%;
+    margin: 40px;
+    background-color: aquamarine;
+    border-radius: 12px;
+}
+#logo{
+    width: 50%;
+}
+
+.topnav{
+    padding-top: 25px; 
+    display: inline-flex; 
+    gap: 50%; 
+    white-space: nowrap; 
+    text-decoration: none;
+    
+    
+}
+#body{
+    background-color: rgb(241, 143, 239);
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 20px;
+    height: 100%;
+}
+.topnav a{
+    text-decoration: none;
+    color: black;
+}
+.goals{
+    display: flex;
+gap: 8%;
+justify-content: center;
+}
+.input{
+    height: 100px;
+    background-color: aquamarine;
+    border: 0px;
+    border-radius: 12px;
+}
+
+#annual{
+background-color: aquamarine;
+border-radius: 12px;
+margin-right: 3%;
+margin-left: 3%;
+
+}

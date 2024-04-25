@@ -1,0 +1,50 @@
+#header{
+    display: flex;
+    gap: 30%;
+    margin: 40px;
+    background-color: aquamarine;
+    border-radius: 12px;
+}
+
+.topnav{
+    padding-top: 25px; 
+    display: inline-flex; 
+    gap: 50%; 
+    white-space: nowrap; 
+    text-decoration: none;
+    
+    
+}
+.topnav a{
+    text-decoration: none;
+    color: black;
+}
+.item-1{
+    display: flex;
+    gap: 10%;
+    font-size: large;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+#mentor{
+    border-radius: 80px;
+}
+#logo{
+    width: 50%;
+}
+#knowmore-button{
+    border-radius: 12px;
+    background-color: rgb(140, 209, 209);
+}
+#mentors{
+    font-size: large;
+    font-weight: bold;
+}
+#body{
+    background-color: rgb(241, 143, 239);
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 20px;
+    height: 100%;
+}

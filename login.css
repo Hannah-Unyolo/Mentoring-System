@@ -1,0 +1,31 @@
+.input{
+    border: solid 1px; 
+    padding: 12px ;
+    margin: auto;
+    border-radius: 12px;
+    width: 60%;
+
+}
+#form{
+    border: solid 1px;
+    border-radius: 15px;
+    padding :16px;
+    background-color: rgb(238, 136, 247);
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+}
+#button{
+    border: solid 1px; 
+    border-radius: 12px;
+    padding: 12px;
+    margin: 0 auto;
+    width: 40%;
+    background-color: skyblue;
+    color: white
+    
+}
+#login-link{
+    
+text-decoration: none;
+}

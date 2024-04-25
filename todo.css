@@ -1,0 +1,77 @@
+#header{
+    display: flex;
+    gap: 30%;
+    margin: 40px;
+    background-color: aquamarine;
+    border-radius: 12px;
+    padding-top: 12px;
+}
+#logo{
+    width: 50%;
+}
+
+.topnav{
+    padding-top: 25px; 
+    display: inline-flex; 
+    gap: 50%; 
+    white-space: nowrap; 
+    text-decoration: none;
+   
+    
+}
+#body{
+    background-color: rgb(241, 143, 239);
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 20px;
+    height: 100%;
+}
+.topnav a{
+    text-decoration: none;
+    color: black;
+}
+.tasks{
+    padding-left: 20px;
+    
+}
+#task1{
+    display: flex;
+    gap: 0%;
+}
+.input{
+    margin-top: 14%;
+    width: 90%;
+    
+}
+.taskbackground{
+    background-color: aquamarine;
+    width: 60%;
+    margin-top: 1.5%;
+
+}
+#design{
+    display: flex;
+}
+#bornacrime{
+    display: flex;
+ 
+}
+
+#view{
+
+    height: 25px;
+    color: rgb(112, 17, 113);
+    text-decoration: none;
+    margin-top: 14%;
+    margin-left: -150px;
+
+}
+#today{
+    background-color: aquamarine;
+    width: 40%;
+    height: 50px;
+
+}
+#items{
+
+}

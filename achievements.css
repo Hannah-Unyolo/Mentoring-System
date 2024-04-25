@@ -1,0 +1,102 @@
+#header{
+    display: flex;
+    gap: 30%;
+    margin: 40px;
+    background-color: aquamarine;
+    border-radius: 12px;
+}
+#logo{
+    width: 50%;
+}
+
+.topnav{
+    padding-top: 25px; 
+    display: inline-flex; 
+    gap: 50%; 
+    white-space: nowrap; 
+    text-decoration: none;
+    
+    
+}
+#body{
+    background-color: rgb(241, 143, 239);
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 20px;
+    height: 100%;
+}
+.topnav a{
+    text-decoration: none;
+    color: black;
+}
+#achievements{
+    background-color: aquamarine;
+    display: flex;
+    gap: 20%;
+    border-radius: 12px;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: center;
+}
+#heading{
+    text-align: center;
+
+}
+#medal{
+    border-radius: 120px;
+    
+}
+#cup{
+    border-radius: 120px; 
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px){
+    #header{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #logo{
+        width: 50%;
+    }
+    
+    .topnav{
+        padding-top: 25px; 
+        display:flex; 
+        flex-wrap: wrap;
+        white-space: nowrap; 
+        text-decoration: none;
+        
+        
+    }
+    #body{
+        background-color: rgb(241, 143, 239);
+        margin-left: 3%;
+        margin-right: 3%;
+        border-radius: 20px;
+        height: 100%;
+    }
+    .topnav a{
+        text-decoration: none;
+        color: black;
+    }
+    #achievements{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #heading{
+        text-align: center;
+        font-size: smaller;
+    
+    }
+    #medal{
+        border-radius: 120px;
+        width: 20%;
+        
+    }
+    #cup{
+        border-radius: 120px; 
+        width: 20%;
+    }
+}
