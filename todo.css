@@ -2,7 +2,7 @@
     display: flex;
     gap: 30%;
     margin: 40px;
-    background-color: aquamarine;
+    background-color: purple;
     padding-top: 12px;
 }
 #logo{
@@ -19,7 +19,7 @@
     
 }
 #body{
-    background-color: rgb(241, 143, 239);
+    background-color: rgb(247, 233, 248);
     margin-left: 3%;
     margin-right: 3%;
     border-radius: 20px;
@@ -27,7 +27,8 @@
 }
 .topnav a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: bold;
 }
 .tasks{
     padding-left: 20px;
@@ -36,16 +37,18 @@
 #task1{
     display: flex;
     gap: 0%;
+    color: white;
 }
 .input{
-    margin-top: 14%;
+    height: 50px;
     width: 90%;
     
 }
 .taskbackground{
-    background-color: aquamarine;
+    background-color: purple;
     width: 60%;
     margin-top: 1.5%;
+    margin-right: 37px;
 
 }
 #design{
@@ -61,12 +64,11 @@
     height: 25px;
     color: rgb(112, 17, 113);
     text-decoration: none;
-    margin-top: 14%;
     margin-left: -150px;
 
 }
 #today{
-    background-color: aquamarine;
+    background-color: purple;
     width: 40%;
     height: 50px;
 

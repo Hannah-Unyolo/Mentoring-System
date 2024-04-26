@@ -2,7 +2,7 @@
     display: flex;
     gap: 30%;
     margin: 40px;
-    background-color: aquamarine;
+    background-color: purple;
     
 }
 #logo{
@@ -19,7 +19,7 @@
     
 }
 #body{
-    background-color: rgb(241, 143, 239);
+    background-color: rgb(247, 233, 248);
     margin-left: 3%;
     margin-right: 3%;
     border-radius: 20px;
@@ -27,19 +27,23 @@
 }
 .topnav a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: bold;
 }
 #achievements{
-    background-color: aquamarine;
+    background-color: purple;
     display: flex;
     gap: 20%;
     border-radius: 12px;
     margin-left: 3%;
     margin-right: 3%;
     justify-content: center;
+    color: white;
+    font-weight: bold;
 }
 #heading{
     text-align: center;
+    color: purple;
 
 }
 #medal{
