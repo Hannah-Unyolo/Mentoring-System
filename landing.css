@@ -42,3 +42,26 @@
         font-size: x-large;
         font-weight: 300;
     }
+
+    @media screen and (min-width: 320px) and (max-width: 667px){
+        #welcome{
+            font-size: 30px; 
+
+         }  
+         #signup{
+            display: flex;
+flex-wrap: wrap;
+text-decoration: none;
+        }
+        
+        #login{
+            display: flex;
+flex-wrap: wrap;
+
+            
+        }
+
+        #logo{
+            width: 40%;
+        }
+    }

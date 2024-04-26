@@ -20,24 +20,30 @@
             <a href="achievements.html">Achievements</a>
             </div> 
             </div>
-<br>
-<div class="goals">
-    <input name="text" type="text" placeholder="Edit Weekly Goals" class="input"/>
+
+    <div id="todo-container">
+
+      <div id="header">
+        <h1>Your Goals</h1>
+      </div>
+      <div id="todo-form">
+        <div class="input">
     
-    <input name="text" type="email" placeholder="Edit Monthly Goals" class="input"/>
+            <input
+            type="text"
+            class="input-item"
+            name="input_box"
+            id="input-box"
+            placeholder="Enter Goals (specify term)"
+          />
+          <button id="input-button" onclick="addTask()">Add</button>
+    
 
-    <input name="text" type="password" placeholder="Edit Annual Goals" class="input"/> 
-</div>
-<br>
-<br>
-<div id="annual">
-    <h4> Annual Goals</h4>
-    <p>1. Graduate by the end of the program</p>
-    <p>2. Get an internship by the end of the program</p>
-</div>
-<br>
-<br>
+      <h2 id="annual">Goals</h2>
+      <ul id="list-container"></ul>
+    </div>
 
-            </div>
+    <script type="text/javascript" src="script.js"></script>
+
 </body>
 </html>

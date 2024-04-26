@@ -3,7 +3,6 @@
     gap: 30%;
     margin: 40px;
     background-color: aquamarine;
-    border-radius: 12px;
     padding-top: 12px;
 }
 #logo{
@@ -72,6 +71,67 @@
     height: 50px;
 
 }
-#items{
 
+
+@media screen and (min-width: 320px) and (max-width: 667px){
+    #header{
+        display: flex;
+flex-wrap: wrap;
+    }
+    #logo{
+        width: 50%;
+    }
+    
+    .topnav{
+        padding-top: 25px; 
+        display: inline-flex; 
+flex-wrap: wrap;
+       
+        
+    }
+
+    .tasks{
+        padding-left: 20px;
+        
+    }
+    #task1{
+        display: flex;
+        gap: 0%;
+        
+    }
+    .input{
+        margin-top: 14%;
+        width: 80%;
+        
+    }
+    .taskbackground{
+        background-color: aquamarine;
+        width: 60%;
+        margin-top: 10%;
+    
+    }
+    #design{
+        display: flex;
+    }
+    #bornacrime{
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+    
+    #view{
+    
+        height: 25px;
+        color: rgb(112, 17, 113);
+        text-decoration: none;
+        margin-top: 50%;
+        margin-left: -150px;
+    
+    }
+    #today{
+        background-color: aquamarine;
+        width: 40%;
+        height: 50px;
+    
+    }  
 }

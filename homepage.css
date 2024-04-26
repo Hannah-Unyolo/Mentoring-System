@@ -3,7 +3,7 @@
     gap: 30%;
     margin: 40px;
     background-color: aquamarine;
-    border-radius: 12px;
+
 }
 
 .topnav{
@@ -47,4 +47,52 @@
     margin-right: 3%;
     border-radius: 20px;
     height: 100%;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 667px){
+    #header{
+        display: flex;
+flex-wrap: wrap;
+    }
+    
+    .topnav{
+   
+        display: inline-flex; 
+
+        flex-wrap: wrap;
+        
+    }
+    .topnav a{
+        text-decoration: none;
+        color: black;
+    }
+    .item-1{
+        display: flex;
+flex-wrap: wrap;
+font-size: medium;
+text-align: center;
+    }
+    #mentor{
+        border-radius: 80px;
+        width: 140px;
+    }
+    #logo{
+        width: 50%;
+    }
+    #knowmore{
+text-decoration: none;
+    }
+    #mentors{
+        font-size: large;
+        font-weight: bold;
+        margin-top: 5%;
+    }
+    #body{
+        background-color: rgb(241, 143, 239);
+        margin-left: 3%;
+        margin-right: 3%;
+        border-radius: 20px;
+        height: 100%;
+    }
 }
