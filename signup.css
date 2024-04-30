@@ -41,3 +41,14 @@ text-decoration: none;
         width: 80%;
     }
 }
+
+@media screen and (min-width: 668px) and (max-width: 1000px){
+    .input{
+        width: 90%;
+        height: 12px;
+    } 
+
+    #button{
+        width: 80%;
+    }
+}

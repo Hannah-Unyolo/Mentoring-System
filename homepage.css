@@ -60,14 +60,63 @@ flex-wrap: wrap;
     
     .topnav{
    
-        display: inline-flex; 
-
+        display:inline-flex; 
         flex-wrap: wrap;
+padding-top: 25px;
         
     }
     .topnav a{
         text-decoration: none;
-        color: black;
+        color: white;
+        
+    }
+    .item-1{
+        display: flex;
+flex-wrap: wrap;
+font-size: medium;
+text-align: center;
+    }
+    #mentor{
+        border-radius: 80px;
+        width: 140px;
+    }
+    #logo{
+        width: 50%;
+    }
+    #knowmore{
+text-decoration: none;
+    }
+    #mentors{
+        font-size: large;
+        font-weight: bold;
+        margin-top: 5%;
+    }
+    #body{
+        background-color: rgb(241, 143, 239);
+        margin-left: 3%;
+        margin-right: 3%;
+        border-radius: 20px;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 668px) and (max-width: 1000px){
+    #header{
+        display: flex;
+flex-wrap: wrap;
+    }
+    
+    .topnav{
+   
+        display:inline-flex; 
+        flex-wrap: wrap;
+padding-top: 25px;
+        
+    }
+    .topnav a{
+        text-decoration: none;
+        color: white;
+        
     }
     .item-1{
         display: flex;

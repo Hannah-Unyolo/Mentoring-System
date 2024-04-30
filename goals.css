@@ -66,3 +66,27 @@ flex-wrap: wrap;
         
     }
 }
+
+@media screen and (min-width: 668px) and (max-width: 1000px){
+    .input{
+        display: flex;
+        flex-wrap: wrap;
+    margin-left: 4%;
+    } 
+
+    #header{
+        display: flex;
+      flex-wrap: wrap;
+    }
+    #logo{
+        width: 50%;
+    }
+    
+    .topnav{
+        padding-top: 25px; 
+        display: inline-flex; 
+flex-wrap: wrap;
+        
+        
+    }
+}

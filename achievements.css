@@ -82,7 +82,58 @@
     }
     .topnav a{
         text-decoration: none;
-        color: black;
+        color: white;
+    }
+    #achievements{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #heading{
+        text-align: center;
+        font-size: smaller;
+    
+    }
+    #medal{
+        border-radius: 120px;
+        width: 20%;
+        
+    }
+    #cup{
+        border-radius: 120px; 
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 668px) and (max-width: 1000px){
+    #header{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #logo{
+        width: 50%;
+    }
+    
+    .topnav{
+        padding-top: 25px; 
+        display:flex; 
+        flex-wrap: wrap;
+        white-space: nowrap; 
+        text-decoration: none;
+        
+        
+    }
+    #body{
+        background-color: rgb(241, 143, 239);
+        margin-left: 3%;
+        margin-right: 3%;
+        border-radius: 20px;
+        height: 100%;
+    }
+    .topnav a{
+        text-decoration: none;
+        color: white;
     }
     #achievements{
         display: flex;
